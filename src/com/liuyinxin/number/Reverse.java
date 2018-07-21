@@ -1,12 +1,10 @@
 package com.liuyinxin.number;
 
 
-import java.util.regex.Matcher;
-
 public class Reverse {
 
     public static void main(String[] args){
-        int i = 123;
+        int i = -51234;
 
         Reverse r = new Reverse();
         System.out.println(r.reverse(i));
@@ -20,6 +18,7 @@ public class Reverse {
             try {
                 result = mut(result, 10);
                 result = add(result, i);
+                System.out.println(result);
             } catch (Exception e) {
                 return 0;
             }

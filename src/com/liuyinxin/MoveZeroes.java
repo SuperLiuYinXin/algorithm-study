@@ -25,6 +25,7 @@ public class MoveZeroes {
         System.out.println(Arrays.toString(nums));
     }
 
+    // 大神的思路
     public void moveZeroes(int[] nums) {
 
         // k 始终记录这非最后一个非0元素的位置
