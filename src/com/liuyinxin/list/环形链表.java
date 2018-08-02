@@ -29,6 +29,8 @@ public class 环形链表 {
         ListNode pre = head;
         ListNode cur = head;
 
+
+        /* 如果有环的话，pre 永远不为空，所以可以肯定没环,可以直接写 */
         while (pre != null && pre.next != null && pre.next.next != null){
             cur = cur.next;
             pre = pre.next.next;
