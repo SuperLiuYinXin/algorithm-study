@@ -4,7 +4,7 @@ import java.io.*;
 import java.util.Scanner;
 
 /**
- * 拍错问题
+ * 排错问题
  */
 public class 神_上帝以及老天爷_2048 {
 
