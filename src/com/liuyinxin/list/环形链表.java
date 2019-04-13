@@ -9,6 +9,8 @@ public class 环形链表 {
 
     public static void main(String[] args) {
         环形链表  s = new 环形链表 ();
+
+
         ListNode l = new ListNode(1);
         l.next  = new ListNode(2);
         l.next.next = new ListNode(3);
@@ -28,7 +30,6 @@ public class 环形链表 {
 
         ListNode pre = head;
         ListNode cur = head;
-
 
         /* 如果有环的话，pre 永远不为空，所以可以肯定没环,可以直接写 */
         while (pre != null && pre.next != null && pre.next.next != null){
