@@ -6,11 +6,11 @@ import java.util.Stack;
 
 /**
  * Definition for a binary tree node.
- * public class TreeNode {
+ * public class Tree {
  *     int val;
- *     TreeNode left;
- *     TreeNode right;
- *     TreeNode(int x) { val = x; }
+ *     Tree left;
+ *     Tree right;
+ *     Tree(int x) { val = x; }
  * }
  */
 

@@ -9,8 +9,8 @@ public class 验证二叉搜索树 {
         TreeNode tree1 = new TreeNode(1);
         tree1.left = new TreeNode(1);
         tree1.right = new TreeNode(3);
-//        tree1.right.left = new TreeNode(6);
-//        tree1.right.right = new TreeNode(20);
+//        tree1.right.left = new Tree(6);
+//        tree1.right.right = new Tree(20);
         System.out.println(
                 s.isValidBST(tree1)
         );

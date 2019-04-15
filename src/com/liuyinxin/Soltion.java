@@ -30,25 +30,25 @@ public class Soltion {
         TreeNode root = new TreeNode(1);
         root.left = new TreeNode(2);
         root.left.left = new TreeNode(3);
-//        root.left.left = new TreeNode(6);
-//        root.left.right = new TreeNode(2);
-//        root.left.right.left = new TreeNode(7);
-//        root.left.right.right = new TreeNode(4);
-//        root.right = new TreeNode(1);
-//        root.right.left = new TreeNode(9);
-//        root.right.right = new TreeNode(8);
+//        root.left.left = new Tree(6);
+//        root.left.right = new Tree(2);
+//        root.left.right.left = new Tree(7);
+//        root.left.right.right = new Tree(4);
+//        root.right = new Tree(1);
+//        root.right.left = new Tree(9);
+//        root.right.right = new Tree(8);
 
 
         TreeNode root1 = new TreeNode(1);
         root1.left = new TreeNode(3);
-//        root1.left = new TreeNode(5);
-//        root1.left.left = new TreeNode(6);
-//        root1.left.right = new TreeNode(7);
-//        root1.right = new TreeNode(1);
-//        root1.right.left  = new TreeNode(4);
-//        root1.right.right = new TreeNode(2);
-//        root1.right.right.left = new TreeNode(9);
-//        root1.right.right.right = new TreeNode(9);
+//        root1.left = new Tree(5);
+//        root1.left.left = new Tree(6);
+//        root1.left.right = new Tree(7);
+//        root1.right = new Tree(1);
+//        root1.right.left  = new Tree(4);
+//        root1.right.right = new Tree(2);
+//        root1.right.right.left = new Tree(9);
+//        root1.right.right.right = new Tree(9);
 
         System.out.println(s.leafSimilar(root, root1));
 
